@@ -1,0 +1,37 @@
+.card {
+	padding: 2em;
+}
+
+input {
+	height: 2em;
+}
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	height: 100vh;
+	width: 100vw;
+	padding: 1em;
+	div {
+		max-width: 1200px;
+		display: flex;
+		width: 100%;
+		justify-content: space-evenly;
+	}
+
+	h1 {
+		margin: 0;
+	}
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	min-height: 160px;
+	border: 3px solid white;
+	padding: 48px;
+	border-radius: 8px;
+	max-width: 560px;
+}
